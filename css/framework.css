@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+input, div, a{
+    outline: none;
+}
+
+
+
+/*Container classes*/
+.container-1{
+    padding: 10px;
+}
+.container-2{
+    padding: 20px;
+}
+.container-3{
+    padding: 30px;
+}
+.container-4{
+    padding: 40px;
+}
+
+
+/*Responsive Grid System*/
+
+*{
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-0 {width: 83.33%;}
+.col-m-1 {width: 91.66%;}
+.col-m-2 {width: 100%;}
+
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-0 {width: 83.33%;}
+.col-s-1 {width: 91.66%;}
+.col-s-2 {width: 100%;}
+
+/* Center class */
+.center{
+    text-align: center; /*parent to center text and child to inline-block to center it*/
+}
+
+/*Divider*/
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+}
+
+.divider-v {
+    width: 2px;
+    height: 30px;
+    margin: 4px 4px 4px 4px;
+    float: right;
+    background-color: rgb(218, 218, 218);
+
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.submit-button{
+    display: inline-block;
+    float: right;
+}
+
+.submit-button input[type="submit"]{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.submit-line{
+    width: 0px;
+    height: 3px;
+    margin: 10px;
+    transform: translateY(-13px);
+    transition: width 0.3s ease-in;
+}
+
+.submit-button:hover .submit-line{
+    width: 95px;
+    background-color: black;
+}
+
+.card {
+    padding-bottom: 100px;
+}
+
+.chip input{
+    width: 30px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: blanchedalmond;
+}
+
+footer #quote {
+    font-size: 14px;
+    max-width: 500px;
+    margin: 0 auto;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<friendlist>
+	<friend>
+		<name>Naman Gupta</name>
+		<age>18</age>
+		<sex>Male</sex>
+		<height>175cm</height>
+		<description>A loyal, honest and faithful guy</description>
+	</friend>
+	<friend>
+		<name>Ayush Kumar</name>
+		<age>18</age>
+		<sex>Male</sex>
+		<height>169cm</height>
+		<description>BFF though chutia but knowledgeble</description>
+	</friend>
+	<friend>
+		<name>Shikhar Srivastav</name>
+		<age>18</age>
+		<sex>Male</sex>
+		<height>175cm</height>
+		<description>Helpful guy and kinda nice.</description>
+	</friend>
+	<friend>
+		<name>Mudit Yadav</name>
+		<age>17</age>
+		<sex>Male</sex>
+		<height>180cm</height>
+		<description>Fascinated by me and passive.</description>
+	</friend>
+	<friend>
+		<name>Vinay Vishwanath</name>
+		<age>18</age>
+		<sex>Male</sex>
+		<height>169cm</height>
+		<description>A serious and spiritual guy.</description>
+	</friend>
+	<friend>
+		<name>Naman Kapoor</name>
+		<age>18</age>
+		<sex>Male</sex>
+		<height>188cm</height>
+		<description>Fat guy.</description>
+	</friend>
+</friendlist>
+	
+
